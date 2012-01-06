@@ -36,7 +36,7 @@ Mail::SendVarious will try to send mail multiple ways.  First it
 tries via SMTP.  If that doesn't work then it tries using 
 C</usr/sbin/sendmail>. 
 
-The C<sendmail()> function can put together a message header or it you can
+The C<sendmail()> function can put together a message header or you can
 hand it one.  Here are the options it can take:
 
 =over 15
@@ -216,6 +216,7 @@ L<Mail::Spool>.
 =head1 AUTHOR
 
 Copyright (C) 2002-2006, David Muir Sharnoff <muir@idiom.com>
+Copyright (C) 2011-2012, Google Inc.
 This module may be used and copied on the same terms as Perl
 itself.
 
